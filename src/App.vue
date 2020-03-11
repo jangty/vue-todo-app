@@ -57,7 +57,7 @@ export default {
 			localStorage.clear();
 		},
 	},
-	// 컴포넌트가 생성되자마자 실행되는 로직
+	// 컴포넌트가 생성되자마자 실행되는 로직 (vue lifecycle)
 	created: function() {
 		this.fetchTodoItems();
 	},
